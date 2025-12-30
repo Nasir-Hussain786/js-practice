@@ -1,10 +1,10 @@
 let firstname = "Nasir";
-    lastname = 'Hussain';
+let lastname = 'Hussain';
 
 let cnic = 4530100000003;
 
 let a = true;
-    b = false;
+let b = false;
 
 let fullname = "Nasir " + "Hussain " + "khanzada";
 
