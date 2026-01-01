@@ -36,5 +36,17 @@ const dateOfBirth = 30-9-2009;
 const websiteName = "google";
 const country = "Pakistan";
 
-let myvalues = [99, "computer" , true , null , undefined];
+let mixed = [99, "computer" , true , null , undefined];
+
 const subjects = ["English" , "Math" , "chemistry" , "Physics" , "Science"];
+
+let software = ["Ms Office ", "Ms Excel " , "Power Point ", "corel draw" , "photoshop"];
+
+let days = ["Mon" , "Tue" , "Wed" , "Thu" , "Fri" , "Sat" , "Sund"];
+
+let months = ["Jan" , "Feb" , "Mar" , "Apr", "May" , "jun" , "July" , "Aug" , "Sep" , "Oct" ,"Nov" , "Dec"];
+
+let animals = ["Dog" , "Cat" , "Elephant" , "Tiger" , "Lion" , "Monkey"];
+
+let numbers = [ 44, 343, 23, 33, 55, 65, 465, 766, 99];
+
