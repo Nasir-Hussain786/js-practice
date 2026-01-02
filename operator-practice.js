@@ -82,7 +82,7 @@ let aao = 220;
 let aap = aan - aao;
 document.write(aap);
 
-// **** ----  Subtraction Operator ---- ****
+// **** ----  Multiplication Operator ---- ****
 
 let abb = 5;
 let bbc = 4;
@@ -257,3 +257,31 @@ console.log(ii > jj);
 let kk = 15;
 let ll = 16;
 console.log(kk < ll);
+
+// **** ---- Data types array and Object ---- ****
+
+let fruits = ["orange" , "banana" , "apple"];
+let numbers = [232, 33, 44, 43, 64, 40];
+
+let fullName = {
+    firsname: "Nasir",
+    lastname: "Hussain",
+    caste: "khanzada"
+};
+
+let cars = {
+    brand:'toyota',
+    model:"corolla",
+    year:2020
+};
+
+let book = {
+    title:"Javascript Basics"
+};
+
+let sports = {
+    game1:"cricket",
+    game2:"Hokey",
+    game3:"badminton",
+    game4:"javelin throw"
+};
