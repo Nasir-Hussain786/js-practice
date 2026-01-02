@@ -168,3 +168,29 @@ let ccr = ccp % ccq;
 document.write(ccr);
 
 
+// **** ---- Exponentiation Operator ---- ****
+document.write("<br><br><br>");
+document.write("<b>Print Exponentiation Values<b>");
+
+let gga = 7;
+let ggb = 3;
+let ggc = 7**3;
+document.write("<br><br>");
+
+document.write(ggc);
+
+let ggd = 7;
+let gge = 2;
+let ggf = ggd ** gge;
+document.write("<br><br>");
+
+document.write(ggf);
+
+let ggg = 8;
+let ggh = 2;
+let ggi = ggg ** ggh;
+document.write("<br><br>");
+
+document.write(ggi);
+
+
