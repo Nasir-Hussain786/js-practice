@@ -46,8 +46,8 @@ let klio = kli + lli;
 console.log(klio);
 
 // *** ---- Subtraction Operator ---- ***
-document.write("<b>Print Subtraction Operator Value<b>");
-document.write("<br><br>")
+document.write("<b>Print Subtraction Operator Values<b>");
+document.write("<br><br><br>");
 
 let aab = 330;
 let aad = 30;
@@ -109,9 +109,31 @@ let bbo = 8;
 let bml = bbn * bbo;
 console.log(bml);
 
-//**** ---- Modulus (Division Remainder)Operator ---- ****
+document.write("<br><br><br>");
+document.write("<b>Print Division Operator Values <b>");
+
+let dda = 40;
+let ddb = 5;
+let ddc = dda / ddb;
+document.write("<br><br>");
+document.write(ddc);
 
 document.write("<br><br>");
+let ddg = 56;
+let ddh = 8;
+let ddi = ddg / ddh;
+document.write(ddi);
+
+document.write("<br><br>");
+
+let ddj = 440;
+let ddk = 7;
+let ddl = ddj / ddk;
+document.write(ddl);
+
+//**** ---- Modulus (Division Remainder)Operator ---- ****
+
+document.write("<br><br><br>");
 document.write("<b>Print Modulus Division Remainder<b>");
 
 let cca = 10;
