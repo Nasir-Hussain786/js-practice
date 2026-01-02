@@ -80,7 +80,31 @@ let aao = 220;
 let aap = aan - aao;
 document.write(aap);
 
-//  *** ---- Multiplication Operator ---- ****
+// **** ----  Subtraction Operator ---- ****
 
+let abb = 5;
+let bbc = 4;
+let bbd = abb * bbc;
+console.log(bbd);
+
+let bbe = 7;
+let bbf = 8;
+let bbg = bbe * bbf;
+console.log(bbg);
+
+let bbh = 3;
+let bbi = 5;
+let bbj = 3*5;
+console.log(bbj);
+
+let bbk = 8;
+let bbl = 5;
+let bbm = bbk * bbl;
+console.log(bbm);
+
+let bbn = 2;
+let bbo = 8;
+let bml = bbn * bbo;
+console.log(bml);
 
 
