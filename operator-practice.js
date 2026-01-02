@@ -262,6 +262,7 @@ console.log(kk < ll);
 
 let fruits = ["orange" , "banana" , "apple"];
 let numbers = [232, 33, 44, 43, 64, 40];
+let mixedValues = ["I am string", 23, true , undefined , {say:"Hello"}];
 
 let fullName = {
     firsname: "Nasir",
