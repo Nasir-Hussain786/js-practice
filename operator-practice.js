@@ -45,7 +45,42 @@ let lli = 40;
 let klio = kli + lli;
 console.log(klio);
 
+// *** ---- Subtraction Operator ---- ***
 
+let aab = 330;
+let aad = 30;
+let aac = aab - aad;
+document.write(aac);
+
+document.write("<br><br>");
+
+let aae = 450;
+let aaf = 400;
+let aag = aae - aaf;
+document.write(aag);
+
+document.write("<br><br>");
+
+let aah = 223;
+let aai = 23;
+let aaj = aah - aai;
+document.write(aaj);
+
+document.write("<br><br>");
+
+let aak = 990;
+let aal = 980;
+let aam = aak - aal;
+document.write(aam);
+
+document.write("<br><br>");
+
+let aan = 220;
+let aao = 220;
+let aap = aan - aao;
+document.write(aap);
+
+//  *** ---- Multiplication Operator ---- ****
 
 
 
