@@ -193,4 +193,43 @@ document.write("<br><br>");
 
 document.write(ggi);
 
+// *** ---- increment Operator ---- ****
+document.write("<br><br><br>");
+document.write("<b>Print increment<b>");
+
+let hha = 5;
+hha++;
+
+document.write("<br><br>");
+document.write(hha);
+
+let hhb = 80;
+hhb++;
+hhb++;
+hhb++;
+
+document.write("<br><br>");
+document.write(hhb);
+
+// *** ---- Decrement Operator ---- ****
+document.write("<br><br><br>");
+document.write("<b>Print increment<b>");
+
+let iia = 10;
+iia--;
+
+document.write("<br><br>");
+document.write(iia);
+
+let iib = 20;
+iib--;
+iib--;
+iib--;
+iib--;
+
+document.write("<br><br>");
+document.write(iib);
+
+
+
 
