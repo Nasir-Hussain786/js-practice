@@ -231,5 +231,29 @@ document.write("<br><br>");
 document.write(iib);
 
 
+// **** ---- Comparison Operator ---- ****
 
+let aa = 10;
+let bb = 10;
 
+console.log(aa == bb);
+
+let cc = 5;
+let dd = 5;
+console.log(cc != dd);
+
+let ee = "oppo";
+let ff = "vivo";
+console.log(ee == ff);
+
+let gg = "iphone";
+let hh = "iphone";
+console.log(gg == hh);
+
+let ii = 30;
+let jj = 20;
+console.log(ii > jj);
+
+let kk = 15;
+let ll = 16;
+console.log(kk < ll);
