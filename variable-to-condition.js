@@ -84,6 +84,7 @@ console.log(isLogin && isAdmin); // result true
 let x = 10;
 console.log(x > 5 && x > 20) // resut false
 
+document.write("<br><br>");
 
 // Example === 03 ===
 
@@ -186,3 +187,63 @@ let signal = "Green";
 let action = signal === "Green" ? "Go" : "Stop" ;
 console.log(action);
 
+
+
+// **** ---- Switch Case ----****
+
+let daynum = 6;
+
+switch(daynum){
+    case 1 : console.log("Monday");
+    break;
+    case 2 : console.log("Tuesday");
+    break; 
+    case 3 : console.log("Wednesday");
+    break;
+    case 4 : console.log("Thursday");
+    break;
+    case 5 : console.log("Friday");
+    break
+    case 6 : console.log("Saturday");
+    break;
+    case 7 : console.log("Sunday");
+    break;
+    default: console.log("Invalid Day");
+}
+
+
+let trafficlight = "yellow";
+
+switch(trafficlight){
+    case "red": console.log("Stop");
+    break;
+
+    case "yellow" : console.log("Ready");
+    break; 
+
+    case "green" : console.log("Go");
+    break;
+}
+
+let browserName = "google chrome";
+
+switch(browserName){
+    case "chrome" : console.log("Google Chrome Browser");
+    break;
+
+    case "firefox" : console.log("Mozilla Firefox Browser");
+    break;
+
+    default : console.log("Other Browser");
+}
+
+
+let isMember = true;
+let hasCoupon = false;
+
+switch(true){
+    case (isMember && hasCoupon): console.log("Discount Applied");
+    break;
+
+    default : console.log("No Discount");
+}
