@@ -30,3 +30,10 @@ for(let i = 0; i < 5; i++){
         console.log(i);
     }
 }
+
+
+let firstName = "Nasir";
+let lastName = "Hussain";
+let fullName = `My Full Name is ${firstName} ${lastName}`;
+
+console.log(fullName);
