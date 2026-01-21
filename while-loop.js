@@ -97,3 +97,55 @@ console.log(review.split(""));
 // Split using comma
 let data = "apple , banana , mango";
 console.log(data.split(","))
+
+// **** ---- JavaScript Numbers ---- ****
+
+// *** ---- String Concatenation ----****
+let str1 = "10"
+let str2 = "20";
+let str3 = str1 + str2;
+console.log(str3);
+
+// Number and string concatenate
+let number = 20;
+let str4 = "90";
+let str5 = number + str4;
+console.log(str5);
+
+// two numbers and one string concatenate
+let x = 5;
+let y = 15;
+let z = '70';
+let finalResult = x + y + z;
+console.log(finalResult);
+
+// Numeric strings
+let a = "25";
+let b = "5";
+let c = a / b;
+console.log(c)
+
+let d = "6";
+let e = "7";
+let f = d * e;
+console.log(f);
+
+let g = "50";
+let j = "20";
+let k = g - j;
+console.log(k);
+
+// toFixed
+let price = 123.4597;
+console.log(price.toFixed(2));
+console.log(price.toFixed(0));
+
+// toPrecision
+let num = 123.456;
+console.log(num.toPrecision(4));
+
+// toString
+let num1 = 100;
+let result2 = num1.toString();
+console.log(typeof result2);
+
