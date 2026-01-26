@@ -52,6 +52,8 @@ function fullName(firstName,lastName){
 
 console.log(fullName("Hasnain","Anwar"));
 
+
+// **** --- OnClick Practice ----****
 function greet(){
     alert("Assalam O Alaikum"); 
 }
