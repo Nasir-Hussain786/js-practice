@@ -156,3 +156,80 @@ const table = {
 for(const key in table){
     console.log(key + " " + table[key]);
 }
+
+
+// *** --- Array ---***
+
+console.log("_______vegetables________");
+
+const vegetables = ["Carrot","Tomato","Patato","onion"];
+
+for(let i = 0; i <vegetables.length; i++){
+    console.log(i, vegetables[i]);
+}
+
+console.log("_______cities________");
+
+const cities = ["Lahore","Islamabad","Multan","Sukkur","Hyderabad","Karachi"];
+for(let i = 0; i<cities.length; i++){
+    console.log(i, cities[i]);
+}
+
+console.log("_______colors________");
+
+const colors = ["red","green","blue","orange","yellow","pink","black"];
+for(let i = 0; i<colors.length; i++){
+    console.log(i, colors[i]);
+}
+
+console.log("_______months________");
+
+const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+for(let i=0; i<months.length; i++){
+    console.log(i , months[i]);
+}
+
+console.log("_______animals________");
+
+const animals = ["Dog","Cat","Elephant","Lion","Tiger","Goat"];
+for(let i=0; i<animals.length; i++){
+    console.log(i , animals[i]);
+}
+
+console.log("_______Contries________");
+
+const contries = ["Pakistan","Iran","USA","India","Australia","Dubai","Saudi Arabia"];
+for(let i=0; i<contries.length; i++){
+    console.log(i , contries[i]);
+}
+
+console.log("_______Planets________");
+
+const planets = ["Mercury","Venus","Earth","Mars","Jupitar"];
+for(let i=0; i<planets.length; i++){
+    console.log(i , planets[i]);
+}
+
+
+console.log("_______flowers________");
+
+const flowers = ["Rose","Tulip","Jasmine","Sunflower","Daisy"];
+for(let i=0; i<flowers.length; i++){
+    console.log(i , flowers[i]);
+}
+
+
+console.log("_______jobs________");
+
+const jobs = ["Engineer","Doctor","Teacher","Designer","Chef","Website Designer"];
+for(let i=0; i<jobs.length; i++){
+    console.log(i , jobs[i]);
+}
+
+console.log("_______electronics________");
+
+const electronics = ["Laptop","Smartphones","Tables","Camera","Headphones","charger","blub"];
+for(let i=0; i<electronics.length; i++){
+    console.log(i , electronics[i]);
+}
+
