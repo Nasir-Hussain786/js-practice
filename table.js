@@ -66,3 +66,32 @@ for(let i=0; i <information.length; i++){
     
     tableThree.append(row)
 }
+
+
+const accountHolders = [
+    {id : 231 , Name : "Albert Master" , Email : "albert.master@gmail.com" , investments : "Bonds"},
+    {id : 210 , Name : "Alferd Alan" , Email : "aalan@gmail.com" , investments : "Stocks"},
+    {id : 256 , Name : "Alison Smart" , Email : "asmart@biztalk.com" , investments : "Residential Property"},
+    {id : 211 , Name : "Ally Emery" , Email : "alley@easymail.com" , investments : "Stocks"},
+    {id : 248 , Name : "Andrew Phips" , Email : "andyp@mycorp.com" , investments : "Stocks"},
+    {id : 234 , Name : "Andy Mitchel" , Email : "andym@hotmail.com" , investments : "Stocks"},
+    {id : 226 , Name : "Angus Robins" , Email : "arobins@orbins.com" , investments : "Bonds"},
+    {id : 241 , Name : "Ann Melan" , Email : "ann_melan@iinet.com" , investments : "Residential Property"},
+    {id : 225 , Name : "Ben Bessel" , Email : "benb@hotmail.com" , investments : "Stock"},
+    {id : 235 , Name : "Bensen Romanolf" , Email : "benr.@albert.net" , investments : "Bonds"},
+];
+
+const tableFour = document.getElementById('htmlTableFour');
+
+for(let i=0; i < accountHolders.length; i++){
+    const user = accountHolders[i];
+    const row = document.createElement('tr');
+
+    for(const key in user){
+        const td = document.createElement("td");
+        td.innerText = user[key];
+        row.append(td);
+    }
+
+    tableFour.append(row);
+}
