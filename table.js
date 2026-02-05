@@ -94,4 +94,39 @@ for(let i=0; i < accountHolders.length; i++){
     }
 
     tableFour.append(row);
-}
+};
+
+
+const productOrders = [
+    {product : "Monitor", Group : "Computers and Peripherals" , dateOfDelivery : "12/10/2013" ,Provider : "Intersection", Quantity : 10 , Price : `$390.00`, amount : `$3,900.00` },
+    {product : "System Unit", Group : "Computers and Peripherals" , dateOfDelivery : "8/10/2014" , Provider : "Magnet",Quantity : 12 , Price : `$420.00`, amount : `$5,040.006` },
+    {product : "Video Card", Group : "Computers and Peripherals" , dateOfDelivery : "10/30/2013" , Provider : "Magnet",Quantity : 23 , Price : `$540.00`, amount : `$12,420.00` },
+    {product : "Computer desk", Group : "Furniture" , dateOfDelivery : "6/26/2015" , Provider : "Driveway",Quantity : 14 , Price : `$130.00`, amount : `$1,820.00` },
+    {product : "Computer chair", Group : "Furniture" , dateOfDelivery : "9/24/2013" , Provider : "Driveway",Quantity : 43 , Price : `$70.00`, amount : `$3,010.00` },
+    {product : "A shelf", Group : "Furniture" , dateOfDelivery : "12/7/2012" , Provider : "Nori",Quantity : 25 , Price : `$210.00`, amount : `$625.00` },
+    {product : "Sofa", Group : "Furniture" , dateOfDelivery : "2/1/2015" , Provider : "Nori",Quantity : 13 , Price : `$580.00`, amount : `$2,730.00` },
+    {product : "Video Card", Group : "Computers and Peripherals" , dateOfDelivery : "3/7/2014" , Provider : "Magnet",Quantity : 19 , Price : `$600.00`, amount : `$11,020.00` },
+    {product : "A laptop", Group : "Computers and Peripherals" , dateOfDelivery : "10/4/2012" , Provider : "in touch",Quantity : 32 , Price : `$320.00`, amount : `$19,200.00` },
+    {product : "Phones 111", Group : "Phones" , dateOfDelivery : "2/18/2013" , Provider : "Nardis",Quantity : 10 , Price : `$370.00`, amount : `$3,200.00` },
+    {product : "Phones 234", Group : "Phones" , dateOfDelivery : "7/4/2015" , Provider : "Nardis",Quantity : 43 , Price : `$420.00`, amount : `$15,910.00` },
+    {product : "Monitor", Group : "Computers and Peripherals" , dateOfDelivery : "6/30/2014" , Provider : "Intersection",Quantity : 10 , Price : `$100.00`, amount : `$4,200.00` },
+    {product : "Computer desk", Group : "Furniture" , dateOfDelivery : "5/8/2013" , Provider : "Driveway",Quantity : 5 , Price : `$35.00`, amount : `$500.00` },
+    {product : "A shelf", Group : "Furniture" , dateOfDelivery : "12/10/2014" , Provider : "Driveway",Quantity : 12 , Price : `$4200.00`, amount : `$420.00` },
+    {product : "Phone 111", Group : "Phones" , dateOfDelivery : "8/5/2015" , Provider : "Magnet",Quantity : 4 , Price : `$30.00`, amount : `$3,780.00` },
+];
+
+
+const tableFive = document.getElementById("htmlTableFive");
+
+for(let i=0; i < productOrders.length; i++){
+    const product = productOrders[i];
+    const row = document.createElement('tr');
+
+    for(const key in product){
+        const td = document.createElement("td");
+        td.innerText = product[key];
+        row.append(td);
+    }
+
+    tableFive.append(row);
+};
