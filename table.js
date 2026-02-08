@@ -138,7 +138,8 @@ const dailyRoutines = [
     {id : 3 , todo : "exercise" , completed : false},
     {id : 4 , todo : "meet with friends" , completed : false},
     {id : 5 , todo : "use social media" , completed : true},
-    {id : 6 , todo : "Learn Javascript" , completed : true}
+    {id : 6 , todo : "Learn Javascript" , completed : true},
+    {id : 6 , todo : "practice coding" , completed : true}
 ];
 
 const ul = document.getElementById("routineList");
