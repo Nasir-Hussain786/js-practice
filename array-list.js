@@ -79,10 +79,19 @@
 // }
 
 const cities = ['Lahore','Islamabad',"Multan",'Sukkur',"Nawabshah",'Hyderabad','Karachi'];
-const pakistanCities = document.getElementById('pakistaCities');
+const pakistanCities = document.getElementById('pakistanCities');
 for(let i=0; i<cities.length; i++){
     const city = cities[i];
     const li = document.createElement("li");
     li.innerText = city;
     pakistanCities.append(li);
+}
+
+const carBrands = ["Suzuki Alto",'Toyota Corolla',"Honda City",'Suzuki Wagon R',"Honda Civic",'Toyota Fortuner'];
+const pakistaniCarsBrands = document.getElementById("pakistaniCarsBrands");
+for(let i=0; i <carBrands.length; i++){
+    const brand = carBrands[i];
+    const li = document.createElement('li');
+    li.innerText = brand;
+    pakistaniCarsBrands.append(li);
 }
