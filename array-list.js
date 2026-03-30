@@ -95,3 +95,13 @@ for(let i=0; i <carBrands.length; i++){
     li.innerText = brand;
     pakistaniCarsBrands.append(li);
 }
+
+
+const foodList = ['Biryani',"Nihari","karahi","Haleem","Pulao","Gol Gappa","Pakora","Chaat","Naan","Roti","Paratha"];
+const pakistaniFoodList = document.getElementById('pakistaniFoodList');
+for(let i=0; i<foodList.length; i++){
+    const foodItem = foodList[i];
+    const li = document.createElement("li");
+    li.innerText = foodItem;
+    pakistaniFoodList.append(li);
+}
